@@ -1,2 +1,4 @@
-# dio-desafio-github
-Desafio de projeto Git/github
+# dio-TQI-Fullstack
+> **Note**
+> Desafio de projeto Git/github e
+> projeto final modulo CSS
