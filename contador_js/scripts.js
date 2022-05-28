@@ -12,29 +12,29 @@
 //     currentNumberWrapper.innerHTML = currentNumber;
 // }
 
-// ------------------modo com addeventlistener
+// ------------------modo 2 com addeventlistener
 // exemplo
 // element.addEventListener("click", myFunction);
 // function myFunction() {
 //   document.getElementById("demo").innerHTML = "Hello World";
 // }
 
-let currentNumberWrapper = document.getElementById('currentNumber');
-let currentNumber = 0
+// let currentNumberWrapper = document.getElementById('currentNumber');
+// let currentNumber = 0
 
-currentNumber.addEventListener("click");
+// currentNumber.addEventListener("click");
 
-function decrement(){
-    currentNumber--;
-    currentNumberWrapper.innerHTML = currentNumber
-}
+// function decrement(){
+//     currentNumber--;
+//     currentNumberWrapper.innerHTML = currentNumber
+// }
 
-function increment(){
-    currentNumber++;
-    currentNumberWrapper.innerHTML = currentNumber
-}
+// function increment(){
+//     currentNumber++;
+//     currentNumberWrapper.innerHTML = currentNumber
+// }
 
-//--------------------modo usando count
+//--------------------modo 3 usando count
 // let currentNumber = document.getElementById('currentNumber');
 // let count = 0;
 
@@ -49,23 +49,23 @@ function increment(){
 // }
 
 //------------mudando a cor
-// let currentNumber = document.getElementById('currentNumber');
-// let count = 0;
+let currentNumber = document.getElementById('currentNumber');
+let count = 0;
 
-// function increment(){
-//     count++;
-//     currentNumber.innerHTML = count;
-//     if (count > 0) {
-//         currentNumber.style.color = "black";
-//     }
-// }
+function increment(){
+    count++;
+    currentNumber.innerHTML = count;
+    if (count > 0) {
+        currentNumber.style.color = "black";
+    }
+}
 
-// function decrement() {
-//     count--;
-//     currentNumber.innerHTML = count;
-//     if (count < 0) {
-//         currentNumber.style.color = 'red';
-//     }
-// }
+function decrement() {
+    count--;
+    currentNumber.innerHTML = count;
+    if (count < 0) {
+        currentNumber.style.color = 'red';
+    }
+}
 
 
