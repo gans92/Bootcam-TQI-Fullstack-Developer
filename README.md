@@ -1,4 +1,5 @@
 # Dio-TQI-Fullstack
 > **Note**
-> Desafio de projeto Git/github e
-> projeto final modulo CSS
+> Projetos realizados:
+- Projeto final CSS - https://projeto-portfolio-css.surge.sh/
+- Contador - https://contador-js.surge.sh/
